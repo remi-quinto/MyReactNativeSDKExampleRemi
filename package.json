@@ -2,6 +2,7 @@
   "name": "myreactnativesdkexampleremi",
   "version": "0.0.1",
   "private": true,
+  "main": "index.js",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -12,6 +13,10 @@
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.73.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-native": ">=0.60.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -32,5 +37,11 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": ["react-native", "sdk"],
+  "author": "Remi Quinto",
+  "license": "MIT"
 }
