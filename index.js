@@ -1,5 +1,5 @@
 // index.js
-import MyComponent from './lib/MyComponent';
-import myFunction from './lib/myFunction';
+import HelloWorldComponent from './lib/HelloWorldComponent';
 
-export { MyComponent, myFunction };
+// eslint-disable-next-line prettier/prettier
+export { HelloWorldComponent };
