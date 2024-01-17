@@ -38,7 +38,9 @@
     "node": ">=18"
   },
   "files": [
-    "lib"
+    "lib",
+    "index.js",
+    "index.d.ts"
   ],
   "keywords": ["react-native", "sdk"],
   "author": "Remi Quinto",

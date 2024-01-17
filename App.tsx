@@ -13,6 +13,8 @@ import {
   View,
 } from 'react-native';
 
+import { HelloWorldComponent } from './lib/HelloWorldComponent';
+
 function App(): React.JSX.Element {
   return (
     <View style={styles.container}>
